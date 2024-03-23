@@ -1,4 +1,15 @@
 @charset "UTF-8";
+
+section {
+  margin: 1em;
+}
+
+#search {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /*!
 * Start Bootstrap - Shop Homepage v5.0.6 (https://startbootstrap.com/template/shop-homepage)
 * Copyright 2013-2023 Start Bootstrap
@@ -7952,6 +7963,7 @@ textarea.form-control-lg {
 
 .fw-normal {
   font-weight: 400 !important;
+  text-align: left;
 }
 
 .fw-bold {
@@ -7964,6 +7976,7 @@ textarea.form-control-lg {
 
 .fw-bolder {
   font-weight: bolder !important;
+  text-align: left;
 }
 
 .lh-1 {

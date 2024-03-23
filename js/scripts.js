@@ -5,3 +5,15 @@
 */
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
+
+/**
+ * Listener for search buttons
+ * @param {*} e 
+ */
+function searchArea(e) {
+    e.preventDefault();
+
+    let button = e.target;
+}
+
+// api call to get city solar data
