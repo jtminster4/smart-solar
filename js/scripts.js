@@ -11,9 +11,10 @@
  * @param {*} e 
  */
 function searchArea(e) {
-    e.preventDefault();
+    // e.preventDefault();
 
-    let button = e.target;
+    let search_key = document.getElementById('search');
+    console.log("search activated with searchkey =", search_key)
 }
 
 // api call to get city solar data

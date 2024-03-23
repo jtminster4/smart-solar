@@ -25,7 +25,8 @@
                 aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
-                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="/city_search.html">Get savings</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="/city_search.html">Get
+                            savings</a></li>
                     <li class="nav-item"><a class="nav-link" href="/about.html">About</a></li>
                     <!-- <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button"
@@ -54,18 +55,23 @@
     <header class="bg-dark py-5">
         <div class="container px-4 px-lg-5 my-5">
             <div class="text-center text-white">
-                <h1 class="display-4 fw-bolder" style="text-align: center;">Welcome To Smart Solar</h1>
-                <p class="lead fw-normal text-white-50 mb-0" style="text-align: center;">Where you can see your potential savings in using
-                    solar panels on your home.</p>
+                <h1 class="display-4 fw-bolder" style="text-align: center;">Eco-Living</h1>
+                <p class="lead fw-normal text-white-50 mb-0" style="text-align: center;">Moving towards a greener
+                    planet, one house at a time</p>
             </div>
         </div>
     </header>
     <!-- Section-->
     <section class="py-5">
-        <div class="input-group" id="search">
+        <!-- <div class="input-group" id="search">
             <input type="search" class="form-control rounded" placeholder="Search your area" aria-label="Search" aria-describedby="search-addon" />
-            <button type="button" class="btn btn-outline-primary" data-mdb-ripple-init>Search</button>
-          </div>
+            <button type="button" class="btn btn-outline-primary" onclick="JavaScript:searchArea(this)" data-mdb-ripple-init>Search</button>
+          </div> -->
+        <form class="form-inline my-2 my-lg-0" onsubmit="JavaScript:searchArea(this)" action="city_search.html">
+            <input class="form-control mr-sm-2" type="search" id="search" placeholder="Search your area"
+                aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
         <div class="container px-4 px-lg-5 mt-5">
             <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
                 <div class="col mb-5">
