@@ -40,29 +40,51 @@
     </nav>
     <!-- Header-->
     <header class="bg-dark py-5">
-        <div class="row container px-4 px-lg-5 my-5">
-            <div class="col-10 text-center text-white">
-                <h1 class="display-4 fw-bolder">Address</h1>
+        <div id="score-box">
+            <img alt="dummy-house photo" src="assets/house6.jpeg" style="width: 700px;">
+            <span class="display-3 fw-bolder" style="color: white; padding-left: 0.5em;"> Green score: 86%</span>
+        </div>
+        <div class="row container px-4 px-lg-5 my-5" id="score-container">
+            <div style="color: white;">
+                <h1 class="display-4 fw-bolder">Scott Dr, Saraland AL</h1>
                 <p class="lead fw-normal text-white-50 mb-0"> </p>
                 <br>
                 <p class="lead fw-normal text-white-50 mb-0">Go GREEN!</p>
-            </div>
-            <div class="col-2 text-center text-white">
-                <h1 class="display-3 fw-bolder"> green score 123</h1>
+                <br>
             </div>
         </div>
     </header>
     <!-- Section-->
     <section class="py-5">
         <div class="card">
-            <div class="card-title">Housing Information</div>
+            <div class="card-title" style="margin-left: auto; margin-right: auto;"><h1>Housing Information</h1></div>
             <div class="card-body">
-                <ul id="housing_info"></ul>
-                
+                <dl>
+                    <dt>Address</dt>
+                    <dd>Scott Dr, Saraland AL</dd>
+
+                    <dt>Zipcode</dt>
+                    <dd>36571</dd>
+
+                    <dt>Carbon Offset</dt>
+                    <dd>662.73566</dd>
+
+                    <dt>Latitude, Longitude</dt>
+                    <dd>30.819552, -88.0958702</dd>
+
+                    <dt>Solar Panel Potential</dt>
+                    <dd>47 units</dd>
+
+                    <dt>Hours of sunshine per year</dt>
+                    <dd>1267.9739</dd>
+
+                    <dt>Current Pollen Levels</dt>
+                    <dd>1 – Very Low</dd>
+                </dl><!-- <ul id="housing_info"></ul> -->
             </div>
-            <div class="demo">
+            <!-- <div class="demo">
                 <button class="btn btn-outline-success my-2 my-sm-0" onclick="JavaScript:searchArea(this)">Demo</button>
-            </div>
+            </div> -->
         </div>
     </section>
     <!-- Footer-->

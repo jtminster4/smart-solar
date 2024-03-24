@@ -40,7 +40,7 @@ function searchArea(e) {
  */
 function houseInsightsOnGet(long, lat) {
 
-    const fetchSolarData = fetch(`https://solar.googleapis.com/v1/buildingInsights:findClosest?location.latitude=${demo_house.latitude}&location.longitude=${demo_house.longitude}&requiredQuality=HIGH&key=AIzaSyDWc9R774qJLweBQgcQjYXs6L6VPfzrQvY`)
+    const fetchSolarData = fetch(`https://solar.googleapis.com/v1/buildingInsights:findClosest?location.latitude=${demo_house.latitude}&location.longitude=${demo_house.longitude}&requiredQuality=HIGH&key=YOUR_API_KEY`)
         .then((response) => response.json())
         .then((solar_data) => {
             console.log(solar_data);
@@ -51,8 +51,8 @@ function houseInsightsOnGet(long, lat) {
             return solar_data
         });
     console.log("\n\nPrinting Pollen Data");
-    // const fetchPollenData = fetch(`https://pollen.googleapis.com/v1/forecast:lookup?key=AIzaSyDWc9R774qJLweBQgcQjYXs6L6VPfzrQvY&location.longitude=${demo_house.longitude}&location.latitude=${demo_house.latitude}&days=3`)
-    const fetchPollenData = fetch(`https://pollen.googleapis.com/v1/forecast:lookup?key=AIzaSyDWc9R774qJLweBQgcQjYXs6L6VPfzrQvY&location.longitude=35.32&location.latitude=32.32&days=3`)
+    // const fetchPollenData = fetch(`https://pollen.googleapis.com/v1/forecast:lookup?key=YOUR_API_KEY&location.longitude=${demo_house.longitude}&location.latitude=${demo_house.latitude}&days=3`)
+    const fetchPollenData = fetch(`https://pollen.googleapis.com/v1/forecast:lookup?key=YOUR_API_KEY&location.longitude=35.32&location.latitude=32.32&days=3`)
         .then((response) => response.json())
         .then((pollen_data) => {
             console.log(pollen_data);
@@ -104,6 +104,8 @@ function houseInsightsOnGet(long, lat) {
     green_houses['demo'] = house_insight;
     load_homes(green_houses);
     
+
+    const housing_info_list = document.getElementById("housing_info");
     localStorage.setItem('house_insight', JSON.stringify(green_houses));
     for (var feature in house_insight) {
         console.log('feature', feature);
@@ -116,10 +118,22 @@ function houseInsightsOnGet(long, lat) {
     // fetch("https://pollen.googleapis.com/v1/forecast:lookup?key=AIzaSyDWc9R774qJLweBQgcQjYXs6L6VPfzrQvY&location.longitude=35.32&location.latitude=32.32&days=3")
     // .then((response) => response.json())
     // .then((json) => console.log(json));
-    const housing_info_list = document.getElementById("housing_info");
 
     // const demo_features = green_houses['demo'];
     // console.log('demos', demo_features);
+
+    // const green_score = 0;
+    // if( green_houses['demo'].pollen_season === false){
+    //     green_score += 15;
+    // }
+    // green_score += green_hosues['demo'].sun_hours_per_year / 100;
+    // green_score += green_houses['demo'].carbonOffsetFactorKgPerMwh / 100;
+    
+
+    // const display_green_score = document.getElementById("score-box");
+    // const green_display = document.createElement('p');
+    // green_display.textContent = `${green_score}`;
+    // display_green_score.appendChild(green_display);
 
 }
 

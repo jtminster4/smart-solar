@@ -1,0 +1,5 @@
+Homes DataBase: https://www.kaggle.com/datasets/febinphilips/us-house-listings-2023
+Solar API: https://developers.google.com/maps/documentation/solar/overview
+Pollen API: https://developers.google.com/maps/documentation/pollen/overview
+
+Bootstrap homepage: https://startbootstrap.com/templates
