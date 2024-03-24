@@ -1,0 +1,30 @@
+Hardiness Zone Fruit In the US:
+Zone 1:
+Zone 2:
+Zone 3: Apples, Plums, Strawberries
+Zone 4: Apples, Peaches, Plums, Pears, Strawberries
+Zone 5: Apples, Peaches, Plums, Cherries, Pears, Berries
+Zone 6: Apples, Peaches, Plums, Cherries, Pears, Berries
+Zone 7: Apples, Peaches, Plums, Cherries, Pears, Berries
+Zone 8: Apples, Peaches, Plums, Pears
+Zone 9:  Citrus, Peaches, Plums, Pears
+Zone 10: Citrus
+Zone 11: Citrus
+Zone 12:
+Zone 13:
+
+
+Hardiness Zone Veg In the US:
+Zone 1: 
+Zone 2: 
+Zone 3: Carrots, Broccoli
+Zone 4: Tomatoes, Peppers, Lettuce, Carrots, Cucumbers, Broccoli
+Zone 5: Tomatoes, Peppers, Lettuce, Carrots, Cucumbers, Broccoli
+Zone 6: Tomatoes, Peppers, Lettuce, Carrots, Cucumbers, Broccoli
+Zone 7: Tomatoes, Peppers, Lettuce, Carrots, Cucumbers, Broccoli
+Zone 8: Tomatoes, Peppers, Lettuce, Carrots, Cucumbers, Broccoli
+Zone 9: Tomatoes, Peppers, Lettuce, Carrots, Cucumbers, Broccoli
+Zone 10: Tomatoes, Peppers, Carrots, Cucumbers
+Zone 11: Cucumbers
+Zone 12:
+Zone 13:
